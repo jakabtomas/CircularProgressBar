@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <eu.sk.jakab.circularprogressbarlib.CircleProgressBar
+        android:id="@+id/progress_circular"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        app:max="100"
+        app:min="0"
+        app:progress="55"
+        app:progressBarThickness="8dp"
+        app:progressbarColor="@color/colorPrimary" />
+
+    <eu.sk.jakab.circularprogressbarlib.CircleProgressBarWithText
+        android:id="@+id/progress_circular_with_text"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center_horizontal"
+        app:pbColor="@color/colorPrimary"
+        app:pbCurrentProgress="55"
+        app:pbMax="100"
+        app:pbMin="0"
+        app:pbThickness="8dp"
+        app:subtitleColor="@color/colorPrimary"
+        app:subtitleSize="16sp"
+        app:subtitleText="subtitle"
+        app:titleColor="@color/colorPrimary"
+        app:titleSize="22sp"
+        app:titleText="title" />
+
+    <Button
+        android:id="@+id/btn_random"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="set random values" />
+
+
+</LinearLayout>

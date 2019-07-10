@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CircleProgressBar">
+        <attr name="min" format="integer" />
+        <attr name="max" format="integer" />
+        <attr name="progress" format="integer" />
+        <attr name="progressbarColor" format="color" />
+        <attr name="progressBarThickness" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="CircleProgressBarWithText">
+        <attr name="pbMin" format="integer" />
+        <attr name="pbMax" format="integer" />
+        <attr name="pbCurrentProgress" format="integer" />
+        <attr name="pbColor" format="color" />
+        <attr name="pbThickness" format="dimension" />
+        <attr name="titleColor" format="color" />
+        <attr name="subtitleColor" format="color" />
+        <attr name="titleSize" format="dimension" />
+        <attr name="subtitleSize" format="dimension" />
+        <attr name="titleText" format="string" />
+        <attr name="subtitleText" format="string" />
+    </declare-styleable>
+
+</resources>
